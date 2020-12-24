@@ -12,17 +12,13 @@ import {
   Drawer,
   Button,
   List,
-  Divider,
   ListItem,
   ListItemText,
-  ListItemIcon,
 } from "@material-ui/core"
 import FacebookIcon from "@material-ui/icons/Facebook"
 import "./App.css"
 import { makeStyles } from "@material-ui/core/styles"
 import MenuIcon from "@material-ui/icons/Menu"
-import InboxIcon from "@material-ui/icons/MoveToInbox"
-import MailIcon from "@material-ui/icons/Mail"
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -245,7 +241,7 @@ function App() {
               </Grid>
             </Container>
             <Container maxWidth="xl">
-              <Grid xs={12} container spacing={2}>
+              <Grid container spacing={2}>
                 <Grid item xs="auto">
                   <img
                     src="https://cache.gmo2.sistacafe.com/images/uploads/summary/image/41751/3e9fea8de38ad5631fd691a1e9c54c26.jpg"
@@ -254,7 +250,7 @@ function App() {
                     height="200"
                   />
                 </Grid>
-                <Grid item xs="auto" spacing={2}>
+                <Grid item xs="auto">
                   <img
                     src="https://cache.gmo2.sistacafe.com/images/uploads/summary/image/41751/3e9fea8de38ad5631fd691a1e9c54c26.jpg"
                     alt=""
@@ -262,7 +258,7 @@ function App() {
                     height="100"
                   />
                   <Box>
-                    <Grid container xs={12}>
+                    <Grid container>
                       <Grid item xs={6}>
                         <img
                           src="https://cache.gmo2.sistacafe.com/images/uploads/summary/image/41751/3e9fea8de38ad5631fd691a1e9c54c26.jpg"
@@ -286,7 +282,6 @@ function App() {
             </Container>
 
             <Grid
-              xs={12}
               container
               spacing={2}
               style={{ flexDirection: "column-reverse" }}
@@ -374,7 +369,7 @@ function App() {
                   }}
                 >
                   <Box pt={2} pl={5}>
-                    <Grid container xs="12">
+                    <Grid container>
                       <Typography
                         variant="h5"
                         component="p"
@@ -514,7 +509,7 @@ function App() {
         >
           <Container maxWidth="xl">
             <Box pt={4} flexDirection="column">
-              <Grid container spacing={1} xs={12}>
+              <Grid container spacing={1}>
                 <Grid item xs="auto">
                   COPYRIGHT © 2020
                 </Grid>
