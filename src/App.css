@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+img {
+  margin: 10px;
+  max-width: 100%;
+  height: auto !important;
+}
+.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-1 {
+  font-size: larger;
+  padding-left: 0px;
+  color: antiquewhite;
+}
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-auto {
+  color: antiquewhite;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2.MuiGrid-grid-xs-8 {
+  margin: 10px;
+  padding: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header.MuiBox-root.MuiBox-root-4 {
+  padding-bottom: 70px;
+}
+.MuiGrid-spacing-xs-1 > .MuiGrid-item {
+  padding: 0px;
+  margin: -16px;
+}
+.MuiBox-root-16 {
+  padding-top: 30px;
+
+  margin: -8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.MuiBox-root.MuiBox-root-12 {
+  padding-top: 6px;
+  padding-left: 6px;
+}
+font {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2.MuiGrid-grid-xs-12 {
+  margin: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MuiBox-root.MuiBox-root-18 {
+  padding-top: 0px;
+}
+button.MuiButtonBase-root.MuiIconButton-root.makeStyles-menuButton-2.MuiIconButton-colorInherit.MuiIconButton-edgeStart {
+  margin: auto;
 }
